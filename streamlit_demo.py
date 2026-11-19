@@ -3,10 +3,6 @@ from langchain_core.prompts import ChatPromptTemplate
 import streamlit as st
 
 
-
-
-set_debug(True)
-
 st.title("Ask anything")
 
 with st.sidebar:
