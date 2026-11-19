@@ -1,10 +1,9 @@
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 import streamlit as st
-from func import script_file_path
-from func import set_new_cwd
 
-from langchain_core.globals import set_debug
+
+
 
 set_debug(True)
 
